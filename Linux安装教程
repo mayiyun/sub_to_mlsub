@@ -22,6 +22,7 @@ pip3 install -r requirements.txt
 python3 main.py
 
 
+
 通用后台运行  
 nohup python3 -u main.py >>out.log 2>&1 &   有日志输出 会占用空间   不覆盖旧日志
 nohup python3 -u main.py >out.log 2>&1 &   有日志输出 会占用空间   每次运行都将覆盖旧日志
