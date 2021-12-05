@@ -5,7 +5,7 @@ apt install python3.7 -y
 apt install python3-pip -y
 wget https://github.com/ovenone/sub_to_mlsub/archive/refs/heads/main.zip
 unzip main.zip
-cd main
+cd sub_to_mlsub-main/
 pip3 install -r requirements.txt
 python3 main.py
 
@@ -17,6 +17,6 @@ yum install python3.7 -y
 yum install python3-pip -y
 wget https://github.com/ovenone/sub_to_mlsub/archive/refs/heads/main.zip
 unzip main.zip
-cd main
+cd sub_to_mlsub-main/
 pip3 install -r requirements.txt
 python3 main.py
