@@ -9,7 +9,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 
 
 data = {'result': 'this is a test'}
-host = ('0.0.0.0', 888)
+host = ('0.0.0.0', 8080)
 headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36'}
 
 ## v2ray订阅地址
